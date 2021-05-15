@@ -1,0 +1,43 @@
+{
+  "name": "mojo-ui",
+  "displayName": "mojo UI",
+  "description": "Dark theme, minimal UI, and convenient addons",
+  "version": "0.0.1",
+  "author": "Albert Perlman",
+  "publisher": "aperlman",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "C/C++",
+    "C",
+    "C++",
+    "python",
+    "yaml",
+    "bash",
+    "bitbake",
+    "minimal",
+    "muted",
+    "dark",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albert-perlman/mojo-ui-vscode-pack.git"
+  },
+  "extensionPack": [
+    "alefragnani.Bookmarks",
+    "aperlman.mojo-theme",
+    "CoenraadS.bracket-pair-colorizer-2",
+    "eamodio.gitlens",
+    "Gruntfuggly.activitusbar",
+    "NicholasHsiang.vscode-opened-editors",
+    "s-nlf-fh.glassit",
+    "shardulm94.trailing-spaces",
+    "sirmspencer.vscode-autohide",
+    "wayou.vscode-todo-highlight"
+  ]
+}

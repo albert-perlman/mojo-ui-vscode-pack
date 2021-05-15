@@ -1,23 +1,29 @@
-# mojo pack
-vscode extension pack
+# mojo UI
+Dark theme, extensions, and settings that provide a minimal UI with convenient addons.
 
-Dark theme, minimal UI, and convenient addons.
+UI modifications can be used with any theme.
 
-For best experience, add to settings.json
+Copy to settings.json
 ```
+"breadcrumbs.filePath": "last",
 "window.menuBarVisibility": "toggle",
-"editor.minimap.enabled": false,
 "window.title": "${activeEditorMedium}",
+"editor.minimap.enabled": false,
+"editor.overviewRulerBorder": false,
+"editor.scrollBeyondLastColumn": 1,
+"editor.cursorBlinking": "phase",
+"editor.renderLineHighlight": "gutter",
+"editor.suggest.showStatusBar": true,
 "explorer.autoReveal": false,
 "scm.countBadge": "off",
+"workbench.colorTheme": "mojo",
 "workbench.experimental.useCustomHover": true,
 "workbench.activityBar.visible": false,
 "autoHide.autoHideSideBar": false,
-"activitusbar.searchViewInPanel": true,
 "autoHide.panelDelay": 0,
 "autoHide.sideBarDelay": 0,
 "autoHide.hideOnOpen": false,
-"editor.suggest.showStatusBar": true,
+"activitusbar.searchViewInPanel": true,
 "activitusbar.views": [
     {
         "name": "explorer",
@@ -32,26 +38,20 @@ For best experience, add to settings.json
 "todohighlight.keywords": [
 "TODO"
 ],
+"todohighlight.defaultStyle": {
+    "color": "rgba(0,255,255,1.0)",
+    "backgroundColor": "rgba(100,100,100,0.5)",
+},
 "bookmarks.label.suggestion": "suggestWhenSelectedOrLineWhenNoSelected",
 "diffEditor.renderSideBySide": false,
 "diffEditor.ignoreTrimWhitespace": false,
 "gitlens.currentLine.enabled": false,
 "gitlens.hovers.currentLine.over": "line",
-"bashIde.highlightParsingErrors": true,
 "bracket-pair-colorizer-2.colors": [
     "LightSteelBlue"
 ],
-"workbench.colorTheme": "mojo",
-"editor.renderLineHighlight": "gutter",
-"breadcrumbs.filePath": "last",
-"editor.cursorBlinking": "phase",
 "trailing-spaces.trimOnSave": true,
 "trailing-spaces.backgroundColor": "rgba(100,100,100,0.3)",
 "trailing-spaces.borderColor": "rgba(0,122,204,0.15)",
-"editor.overviewRulerBorder": false,
-"editor.rulers": [
-    120
-],
-"editor.scrollBeyondLastColumn": 1,
 "glassit.alpha": 240,
 ```
