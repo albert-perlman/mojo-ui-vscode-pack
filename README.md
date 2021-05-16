@@ -53,5 +53,8 @@ Copy to settings.json
 "trailing-spaces.trimOnSave": true,
 "trailing-spaces.backgroundColor": "rgba(100,100,100,0.3)",
 "trailing-spaces.borderColor": "rgba(0,122,204,0.15)",
-"glassit.alpha": 240,
+"opened-editors.openedEditors": false,
+"opened-editors.copyFolderName": false,
+"opened-editors.copyFileName": false,
+"glassit.alpha": 245,
 ```
