@@ -2,7 +2,7 @@
   "name": "mojo-ui",
   "displayName": "mojo UI",
   "description": "Dark theme, minimal UI, and convenient addons",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "author": "Albert Perlman",
   "publisher": "aperlman",
   "engines": {
@@ -17,7 +17,7 @@
     "C++",
     "python",
     "yaml",
-    "bash",
+    "shell",
     "bitbake",
     "minimal",
     "muted",
@@ -29,7 +29,6 @@
     "url": "https://github.com/albert-perlman/mojo-ui-vscode-pack.git"
   },
   "extensionPack": [
-    "alefragnani.Bookmarks",
     "aperlman.mojo-theme",
     "CoenraadS.bracket-pair-colorizer-2",
     "eamodio.gitlens",

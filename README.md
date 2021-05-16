@@ -1,7 +1,35 @@
 # mojo UI
-Dark theme, extensions, and settings that provide a minimal UI with convenient addons.
+[Keybindings](#keybindings)<br/>
+[Activitus Bar](#activitus-bar)<br/>
+[Setup](#setup)<br/>
 
-UI modifications can be used with any theme.
+## Overview
+Dark theme, extensions, and settings that provide a minimal UI with convenient addons.<br/>
+mojo UI extensions and settings can be used with any theme.
+
+![image](https://user-images.githubusercontent.com/53355129/118393296-a4215a00-b5fb-11eb-9ae6-2fd245ed3da2.png)
+transparency enabled
+<br/><br/>
+![image](https://user-images.githubusercontent.com/53355129/118392886-23615e80-b5f9-11eb-8413-5f8e4791b128.png)
+transparency disabled
+<br/>
+## Keybindings
+function | shortcut
+-------- | -----
+open settings | ctrl/cmd + ,
+show/hide panel | ctrl/cmd + j
+show/hide sidebar | ctrl/cmd + b
+show/hide menu bar | alt
+search in files |ctrl/cmd + shift + f
++/- transparency | ctrl + alt + z/c
+
+## Activitus Bar
+Open the Explorer and Extensions sidebar using the icons on the far left of the status bar. To add other activity bar icons to the status bar see [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar) configuration.
+
+![image](https://user-images.githubusercontent.com/53355129/118390850-8dc0d180-b5ee-11eb-80f3-120270e06bfd.png)
+
+## Setup
+Recommended: drag-and-drop the Search pane from the sidebar to the bottom panel
 
 Copy to settings.json
 ```
@@ -42,9 +70,7 @@ Copy to settings.json
     "color": "rgba(0,255,255,1.0)",
     "backgroundColor": "rgba(100,100,100,0.5)",
 },
-"bookmarks.label.suggestion": "suggestWhenSelectedOrLineWhenNoSelected",
 "diffEditor.renderSideBySide": false,
-"diffEditor.ignoreTrimWhitespace": false,
 "gitlens.currentLine.enabled": false,
 "gitlens.hovers.currentLine.over": "line",
 "bracket-pair-colorizer-2.colors": [
