@@ -2,7 +2,7 @@
   "name": "mojo-ui",
   "displayName": "mojo UI",
   "description": "Dark theme, minimal UI, and convenient addons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Albert Perlman",
   "publisher": "aperlman",
   "engines": {
