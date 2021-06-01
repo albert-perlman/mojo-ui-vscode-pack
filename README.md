@@ -82,5 +82,5 @@ Copy to settings.json
 "opened-editors.openedEditors": false,
 "opened-editors.copyFolderName": false,
 "opened-editors.copyFileName": false,
-"glassit.alpha": 245,
+"glassit.alpha": 255,
 ```
