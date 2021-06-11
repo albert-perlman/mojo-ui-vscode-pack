@@ -5,7 +5,8 @@
 
 ## Overview
 Dark theme, extensions, and settings that provide a minimal UI with convenient addons.<br/>
-mojo UI extensions and settings can be used with any theme.
+mojo UI extensions and settings can be used with any theme.<br/>
+**IMPORTANT:** to complete installation, copy UI settings in the [Setup](#setup) section.
 
 ![image](https://user-images.githubusercontent.com/53355129/118393296-a4215a00-b5fb-11eb-9ae6-2fd245ed3da2.png)
 transparency enabled
