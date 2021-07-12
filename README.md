@@ -8,11 +8,7 @@ Dark theme, extensions, and settings that provide a minimal UI with convenient a
 mojo UI extensions and settings can be used with any theme.<br/>
 **IMPORTANT:** to complete installation, copy UI settings in the [Setup](#setup) section.
 
-![image](https://user-images.githubusercontent.com/53355129/118393296-a4215a00-b5fb-11eb-9ae6-2fd245ed3da2.png)
-transparency enabled
-<br/><br/>
-![image](https://user-images.githubusercontent.com/53355129/118392886-23615e80-b5f9-11eb-8413-5f8e4791b128.png)
-transparency disabled
+![image](https://user-images.githubusercontent.com/53355129/125361858-280d6f00-e32b-11eb-8a7c-600d1c574ec4.png)
 <br/>
 ## Keybindings
 function | shortcut
@@ -22,7 +18,6 @@ show/hide panel | ctrl/cmd + j
 show/hide sidebar | ctrl/cmd + b
 show/hide menu bar | alt
 search in files |ctrl/cmd + shift + f
-+/- transparency | ctrl + alt + z/c
 
 ## Activitus Bar
 Open the Explorer and Extensions sidebar using the icons on the far left of the status bar. To add other activity bar icons to the status bar see [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar) configuration.
@@ -83,5 +78,4 @@ Copy to settings.json
 "opened-editors.openedEditors": false,
 "opened-editors.copyFolderName": false,
 "opened-editors.copyFileName": false,
-"glassit.alpha": 255,
 ```
