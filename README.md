@@ -69,12 +69,14 @@ Copy to settings.json
 "diffEditor.renderSideBySide": false,
 "gitlens.currentLine.enabled": false,
 "gitlens.hovers.currentLine.over": "line",
+"gitlens.codeLens.authors.enabled": false,
+"gitlens.codeLens.recentChange.enabled": false,
 "bracket-pair-colorizer-2.colors": [
     "LightSteelBlue"
 ],
 "trailing-spaces.trimOnSave": true,
-"trailing-spaces.backgroundColor": "rgba(100,100,100,0.3)",
-"trailing-spaces.borderColor": "rgba(0,122,204,0.15)",
+"trailing-spaces.backgroundColor": "rgba(55,55,55,0.3)",
+"trailing-spaces.borderColor": "rgba(30,30,30,0.15)",
 "opened-editors.openedEditors": false,
 "opened-editors.copyFolderName": false,
 "opened-editors.copyFileName": false,
