@@ -1,4 +1,6 @@
 # mojo UI
+**IMPORTANT:** to complete installation, copy UI settings in the [Setup](#setup) section. <br>
+
 [Keybindings](#keybindings)<br/>
 [Activitus Bar](#activitus-bar)<br/>
 [Setup](#setup)<br/>
@@ -6,7 +8,6 @@
 ## Overview
 Dark theme, extensions, and settings that provide a minimal UI with convenient addons.<br/>
 mojo UI extensions and settings can be used with any theme.<br/>
-**IMPORTANT:** to complete installation, copy UI settings in the [Setup](#setup) section.
 
 ![image](https://user-images.githubusercontent.com/53355129/125361858-280d6f00-e32b-11eb-8a7c-600d1c574ec4.png)
 <br/>
@@ -25,8 +26,6 @@ Open the Explorer and Extensions sidebar using the icons on the far left of the 
 ![image](https://user-images.githubusercontent.com/53355129/118390850-8dc0d180-b5ee-11eb-80f3-120270e06bfd.png)
 
 ## Setup
-Recommended: drag-and-drop the Search pane from the sidebar to the bottom panel
-
 Copy to settings.json
 ```
 "breadcrumbs.filePath": "last",
@@ -39,6 +38,9 @@ Copy to settings.json
 "editor.renderLineHighlight": "gutter",
 "editor.renderIndentGuides": false,
 "editor.suggest.showStatusBar": true,
+"editor.bracketPairColorization.enabled": true,
+"editor.guides.bracketPairs": "active",
+"editor.guides.indentation": false,
 "explorer.autoReveal": false,
 "scm.countBadge": "off",
 "workbench.colorTheme": "mojo",
@@ -80,4 +82,14 @@ Copy to settings.json
 "opened-editors.openedEditors": false,
 "opened-editors.copyFolderName": false,
 "opened-editors.copyFileName": false,
+"workbench.colorCustomizations": {
+
+    "editorBracketHighlight.foreground1": "#abb2c0",
+    "editorBracketHighlight.foreground2": "#abb2c0",
+    "editorBracketHighlight.foreground3": "#abb2c0",
+    "editorBracketHighlight.foreground4": "#abb2c0",
+    "editorBracketHighlight.foreground5": "#abb2c0",
+    "editorBracketHighlight.foreground6": "#abb2c0",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+},
 ```
